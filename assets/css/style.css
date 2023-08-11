@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: aliceblue; 
+  background-color: aliceblue;
 }
 
 .header-container-mobile-tab {
@@ -8,11 +8,11 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 90%;
   height: 400px;
-}   
+}
 
 .topnav {
   position: relative;
-}   
+}
 
 .topnav #myLinks {
   display: none;
@@ -47,4 +47,73 @@ body {
   font-size: large;
   padding-top: 10px;
   text-align: center;
+}
+
+/* tab view */
+@media screen and (min-width: 768px) {
+  .header-container-mobile-tab {
+    height: 600px;
+  }
+
+  .topnav a {
+    font-size: 25px;
+  }
+
+  .header-text {
+    font-size: xx-large;
+  }
+
+  .logo-image {
+    width: 12%;
+  }
+}
+
+/* desktop view */
+@media screen and (min-width: 1024px) {
+  .header-container-mobile-tab {
+    display: none;
+  }
+
+  .header-container-desktop {
+    display: block;
+    background-image: url('../images/black-tea-and-ten-other-tea-that-are-very-healthy-for-the-body.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 80%;
+    height: 600px;  
+  }
+
+  .topnav {
+    display: flex;
+  }
+
+  .active {
+    width: -webkit-fill-available;
+  }
+
+  .topnav #myLinks {
+    display: flex;
+  }
+
+  .topnav a {
+    color: powderblue;
+  }
+
+  .logo-image {
+    width: 10%;
+  }
+}
+
+/* Mega desktop view for xx-large screens */
+@media screen and (min-width: 1400px) {
+  body {
+    margin: 0 150px 0 150px;
+  }
+
+  .header-container-desktop {
+    height: 700px;
+  }
+
+  .logo-image {
+    width: 5%;
+  }
 }
