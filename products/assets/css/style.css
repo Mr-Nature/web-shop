@@ -197,4 +197,13 @@ body {
   .products-image {
     width: 300px;
   }
+
+  .product-section {
+    margin-top: -135px;
+  }
+
+  /* Footer Section */
+  .footer-container {
+    margin-top: 1px;
+  }
 }

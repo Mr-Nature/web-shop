@@ -222,4 +222,13 @@ body {
   .explore-section2 {
     margin-left: 290px;
   }
+
+  .text-explore {
+    margin-top: -135px;
+  }
+
+  /* Footer Section */
+  .footer-container {
+    margin-top: 1px;
+  }  
 }
