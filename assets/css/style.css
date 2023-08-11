@@ -63,6 +63,14 @@ body {
   font-family: fantasy, sans-serif;
 }
 
+/* Check out our products section */
+.grid-image {
+  margin-left: 20px;
+}
+
+.products {
+  background-color: #28282b;
+}
 
 /* tab view */
 @media screen and (min-width: 768px) {
@@ -101,6 +109,17 @@ body {
   .section-image {
     width: 500px;
     height: 300px;
+  }
+
+  /* Check out our products section */
+  .grid-image {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 25px;
+  }
+
+  .products-image {
+    width: 340px;
   }
 }
 
@@ -160,6 +179,24 @@ body {
     text-align-last: start;
   }
 
+  /* Check out our products section */
+  .product-section {
+    display: flex;
+  }
+
+  .grid-image {
+    display: flex;
+    column-gap: 1.5em;
+  }
+
+  .products-image {
+    width: 220px;
+  }
+
+  .inventory {
+    margin-bottom: 50px;
+  }
+
 }
 
 /* Mega desktop view for xx-large screens */
@@ -187,4 +224,8 @@ body {
     margin-right: 50px;
   }
 
+  /* Check out our products section */
+  .products-image {
+    width: 300px;
+  }
 }
