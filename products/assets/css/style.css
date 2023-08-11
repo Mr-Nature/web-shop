@@ -61,6 +61,31 @@ body {
   margin-top: -38px;
 }
 
+/* Footer Section */
+.footer-container {
+  background-color: currentColor;
+}
+
+.brand-icons {
+  display: flex;
+  column-gap: 1em;
+  justify-content: center;
+}
+
+.icon-text {
+  margin: 20px 0 0 25px;
+}
+
+.copyright-icon {
+  font-size: medium;
+  padding-right: 10px;
+}
+
+.copyright-text {
+  font-size: small;
+  letter-spacing: 5px;
+}
+
 /* tab view */
 @media screen and (min-width: 768px) {
   .header-container-mobile-tab {
@@ -92,6 +117,11 @@ body {
 
   .product-section {
     margin-top: -55px;
+  }
+
+  /* Footer Section */
+  .icon-text {
+    justify-content: center;
   }  
 }
 
