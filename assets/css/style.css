@@ -49,6 +49,21 @@ body {
   text-align: center;
 }
 
+/* about our products section */
+.text-spacing {
+  margin-top: 35px;
+  text-align: justify;
+}
+
+.text-about {
+  font-family: cursive, sans-serif;
+}
+
+.text-web {
+  font-family: fantasy, sans-serif;
+}
+
+
 /* tab view */
 @media screen and (min-width: 768px) {
   .header-container-mobile-tab {
@@ -65,6 +80,27 @@ body {
 
   .logo-image {
     width: 12%;
+  }
+
+  /* about our products section */
+  .about-sector {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-image {
+    padding-left: 150px;
+  }
+
+  .text-spacing {
+    width: 50%;
+    text-align-last: center;
+  }
+
+  .section-image {
+    width: 500px;
+    height: 300px;
   }
 }
 
@@ -101,6 +137,29 @@ body {
   .logo-image {
     width: 10%;
   }
+
+  /* about our products section */
+  .about-sector {
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 100px;
+  }
+
+  .about-image {
+    padding-left: 0;
+  }
+
+  .section-image {
+    width: 500px;
+  }
+
+  .text-spacing {
+    margin-top: 0;
+    width: auto;
+    text-align: start;
+    text-align-last: start;
+  }
+
 }
 
 /* Mega desktop view for xx-large screens */
@@ -116,4 +175,16 @@ body {
   .logo-image {
     width: 5%;
   }
+
+  /* about our products section */
+  .section-image {
+    width: 600px;
+    height: 250px;
+    margin-left: 100px;
+  }
+
+  .text-spacing {
+    margin-right: 50px;
+  }
+
 }
