@@ -97,6 +97,31 @@ body {
   letter-spacing: 3px;
 }
 
+/* Footer Section */
+.footer-container {
+  background-color: currentColor;
+}
+
+.brand-icons {
+  display: flex;
+  column-gap: 1em;
+  justify-content: center;
+}
+
+.icon-text {
+  margin: 20px 0 0 25px;
+}
+
+.copyright-icon {
+  font-size: medium;
+  padding-right: 10px;
+}
+
+.copyright-text {
+  font-size: small;
+  letter-spacing: 5px;
+}
+
 /* tab view */
 @media screen and (min-width: 768px) {
   .header-container-mobile-tab {
@@ -127,6 +152,11 @@ body {
 
   .text-explore {
     margin-top: -45px;
+  }
+
+  /* Footer Section */
+  .icon-text {
+    justify-content: center;
   }
 }
 
