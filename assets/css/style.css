@@ -143,7 +143,7 @@ input[type=text-message] {
 input[type=submit] {
   padding: 7px 10px;
   background-color: #198754;
-  border:2px solid #73dfad;
+  border: 2px solid #73dfad;
 }
 
 .all-forms {
@@ -193,7 +193,7 @@ input[type=submit] {
     width: 12%;
   }
 
-/* about our products section */
+  /* about our products section */
   .about-sector {
     display: flex;
     align-items: center;
@@ -214,7 +214,7 @@ input[type=submit] {
     height: 300px;
   }
 
-/* Check out our products section */
+  /* Check out our products section */
   .grid-image {
     display: grid;
     grid-template-columns: auto auto;
@@ -225,7 +225,7 @@ input[type=submit] {
     width: 340px;
   }
 
-/* Explore Our Services section */
+  /* Explore Our Services section */
   .explore-section2 {
     margin-left: 50px;
   }
@@ -235,12 +235,12 @@ input[type=submit] {
     max-width: min-content;
   }
 
-/* Contact address and forms Section */
+  /* Contact address and forms Section */
   .contact-section {
     display: block;
   }
 
-/* Footer Section */
+  /* Footer Section */
   .icon-text {
     justify-content: center;
   }
@@ -257,7 +257,7 @@ input[type=submit] {
     background-image: url('../images/black-tea-and-ten-other-tea-that-are-very-healthy-for-the-body.jpg');
     background-repeat: no-repeat;
     background-size: 100% 80%;
-    height: 600px;  
+    height: 600px;
   }
 
   .topnav {
@@ -280,7 +280,7 @@ input[type=submit] {
     width: 10%;
   }
 
-/* about our products section */
+  /* about our products section */
   .about-sector {
     flex-direction: row;
     padding-left: 0;
@@ -302,7 +302,7 @@ input[type=submit] {
     text-align-last: start;
   }
 
-/* Check out our products section */
+  /* Check out our products section */
   .product-section {
     display: flex;
   }
@@ -320,12 +320,12 @@ input[type=submit] {
     margin-bottom: 50px;
   }
 
-/* Explore Our Services section */
+  /* Explore Our Services section */
   .explore-section2 {
     margin-left: 0;
   }
 
-/* Contact address and forms Section */
+  /* Contact address and forms Section */
   .contact-section {
     display: flex;
   }
@@ -349,7 +349,7 @@ input[type=submit] {
     width: 5%;
   }
 
-/* about our products section */
+  /* about our products section */
   .section-image {
     width: 600px;
     height: 250px;
@@ -360,12 +360,12 @@ input[type=submit] {
     margin-right: 50px;
   }
 
-/* Check out our products section */
+  /* Check out our products section */
   .products-image {
     width: 300px;
   }
 
-/* Explore Our Services section */
+  /* Explore Our Services section */
   .explore-section2 {
     margin-left: 290px;
   }
