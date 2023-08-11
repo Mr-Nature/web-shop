@@ -119,6 +119,37 @@ body {
   letter-spacing: 3px;
 }
 
+/* Contact address and forms Section */
+.contact-section {
+  margin: 70px 0 0 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text-message] {
+  width: 100%;
+  padding: 40px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=submit] {
+  padding: 7px 10px;
+  background-color: #198754;
+  border:2px solid #73dfad;
+}
+
+.all-forms {
+  margin: 70px 0;
+}
+
 /* tab view */
 @media screen and (min-width: 768px) {
   .header-container-mobile-tab {
@@ -137,7 +168,7 @@ body {
     width: 12%;
   }
 
-  /* about our products section */
+/* about our products section */
   .about-sector {
     display: flex;
     align-items: center;
@@ -158,7 +189,7 @@ body {
     height: 300px;
   }
 
-  /* Check out our products section */
+/* Check out our products section */
   .grid-image {
     display: grid;
     grid-template-columns: auto auto;
@@ -169,7 +200,7 @@ body {
     width: 340px;
   }
 
-  /* Explore Our Services section */
+/* Explore Our Services section */
   .explore-section2 {
     margin-left: 50px;
   }
@@ -177,6 +208,11 @@ body {
   .recipes-container {
     margin-right: 0;
     max-width: min-content;
+  }
+
+/* Contact address and forms Section */
+  .contact-section {
+    display: block;
   }
 
 }
@@ -215,7 +251,7 @@ body {
     width: 10%;
   }
 
-  /* about our products section */
+/* about our products section */
   .about-sector {
     flex-direction: row;
     padding-left: 0;
@@ -237,7 +273,7 @@ body {
     text-align-last: start;
   }
 
-  /* Check out our products section */
+/* Check out our products section */
   .product-section {
     display: flex;
   }
@@ -255,9 +291,18 @@ body {
     margin-bottom: 50px;
   }
 
-  /* Explore Our Services section */
+/* Explore Our Services section */
   .explore-section2 {
     margin-left: 0;
+  }
+
+/* Contact address and forms Section */
+  .contact-section {
+    display: flex;
+  }
+
+  .all-forms {
+    margin-top: 0;
   }
 }
 
@@ -275,7 +320,7 @@ body {
     width: 5%;
   }
 
-  /* about our products section */
+/* about our products section */
   .section-image {
     width: 600px;
     height: 250px;
@@ -286,12 +331,12 @@ body {
     margin-right: 50px;
   }
 
-  /* Check out our products section */
+/* Check out our products section */
   .products-image {
     width: 300px;
   }
 
-  /* Explore Our Services section */
+/* Explore Our Services section */
   .explore-section2 {
     margin-left: 290px;
   }
