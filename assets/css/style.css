@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue; 
+}
+
+.header-container-mobile-tab {
+  background-image: url('../images/black-tea-on-dark-background.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 90%;
+  height: 400px;
+}   
+
+.topnav {
+  position: relative;
+}   
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  display: block;
+  text-decoration: none;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.logo-image {
+  height: 80px;
+  width: 20%;
+  border-radius: 50%;
+}
+
+.header-container-desktop {
+  display: none;
+}
+
+.header-text {
+  font-family: cursive, san-serif;
+  font-size: large;
+  padding-top: 10px;
+  text-align: center;
+}
