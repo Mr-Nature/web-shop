@@ -72,6 +72,53 @@ body {
   background-color: #28282b;
 }
 
+/* Explore Our Services section */
+.explore-section {
+  background-color: #c0c0c06b;
+}
+
+.text-explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recipes-container {
+  background-color: greenyellow;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+  padding-left: inherit;
+  padding-right: inherit;
+}
+
+.services-image {
+  border: 2px solid gold;
+}
+
+.services-icon {
+  position: relative;
+  bottom: 1em;
+  left: 4.2em;
+  background-color: orange;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.custom-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  border: 2px solid gold;
+  border-top: none;
+}
+
+.text-custom {
+  text-align: center;
+  letter-spacing: 3px;
+}
+
 /* tab view */
 @media screen and (min-width: 768px) {
   .header-container-mobile-tab {
@@ -121,6 +168,17 @@ body {
   .products-image {
     width: 340px;
   }
+
+  /* Explore Our Services section */
+  .explore-section2 {
+    margin-left: 50px;
+  }
+
+  .recipes-container {
+    margin-right: 0;
+    max-width: min-content;
+  }
+
 }
 
 /* desktop view */
@@ -197,6 +255,10 @@ body {
     margin-bottom: 50px;
   }
 
+  /* Explore Our Services section */
+  .explore-section2 {
+    margin-left: 0;
+  }
 }
 
 /* Mega desktop view for xx-large screens */
@@ -227,5 +289,10 @@ body {
   /* Check out our products section */
   .products-image {
     width: 300px;
+  }
+
+  /* Explore Our Services section */
+  .explore-section2 {
+    margin-left: 290px;
   }
 }
