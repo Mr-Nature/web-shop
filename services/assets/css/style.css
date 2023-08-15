@@ -206,10 +206,6 @@ body {
 
 /* Mega desktop view for xx-large screens */
 @media screen and (min-width: 1400px) {
-  body {
-    margin: 0 150px 0 150px;
-  }
-
   .header-container-desktop {
     height: 700px;
   }
