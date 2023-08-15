@@ -4,7 +4,7 @@ body {
 }
 
 .header-container-mobile-tab {
-  background-image: url('../images/black-tea-on-dark-background.jpg');
+  background-image: url('../images/header-image-mobile.jpg');
   background-repeat: no-repeat;
   background-size: 100% 90%;
   height: 400px;
@@ -254,7 +254,7 @@ input[type=submit] {
 
   .header-container-desktop {
     display: block;
-    background-image: url('../images/black-tea-and-ten-other-tea-that-are-very-healthy-for-the-body.jpg');
+    background-image: url('../images/header-image-desktop.jpg');
     background-repeat: no-repeat;
     background-size: 100% 80%;
     height: 600px;
