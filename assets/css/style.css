@@ -8,6 +8,7 @@ body {
   background-repeat: no-repeat;
   background-size: 100% 90%;
   height: 400px;
+  position: relative;
 }
 
 .topnav {
@@ -45,8 +46,10 @@ body {
 .header-text {
   font-family: cursive, san-serif;
   font-size: large;
-  padding-top: 10px;
   text-align: center;
+  position: absolute;
+  top: 14em;
+  left: 8em;
 }
 
 /* about our products section */
@@ -187,6 +190,8 @@ input[type=submit] {
 
   .header-text {
     font-size: xx-large;
+    top: 12em;
+    left: 10em;  
   }
 
   .logo-image {
@@ -258,6 +263,10 @@ input[type=submit] {
     background-repeat: no-repeat;
     background-size: 100% 80%;
     height: 600px;
+  }
+
+  .header-text {
+    position: static;
   }
 
   .topnav {
