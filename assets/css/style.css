@@ -372,6 +372,6 @@ input[type=submit] {
 
   /* Explore Our Services section */
   .explore-section2 {
-    margin-left: 440px;
+    justify-content: center;
   }
 }
