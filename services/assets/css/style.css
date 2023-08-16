@@ -80,7 +80,7 @@ body {
 .services-icon {
   position: relative;
   bottom: 1em;
-  left: 4.2em;
+  left: 6.5em;
   background-color: orange;
   border-radius: 50%;
   padding: 10px;
@@ -225,7 +225,7 @@ body {
 
   /* Explore Our Services section */
   .explore-section2 {
-    margin-left: 290px;
+    margin-left: 440px;
   }
 
   .text-explore {
