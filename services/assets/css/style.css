@@ -225,7 +225,7 @@ body {
 
   /* Explore Our Services section */
   .explore-section2 {
-    margin-left: 440px;
+    justify-content: center;
   }
 
   .text-explore {
