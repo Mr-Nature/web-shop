@@ -199,24 +199,12 @@ input[type=submit] {
   }
 
   /* about our products section */
-  .about-sector {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
-
   .about-image {
-    padding-left: 150px;
+    text-align: center;
   }
 
   .text-spacing {
-    width: 50%;
     text-align-last: center;
-  }
-
-  .section-image {
-    width: 500px;
-    height: 300px;
   }
 
   /* Check out our products section */
@@ -290,23 +278,8 @@ input[type=submit] {
   }
 
   /* about our products section */
-  .about-sector {
-    flex-direction: row;
-    padding-left: 0;
-    margin-bottom: 100px;
-  }
-
-  .about-image {
-    padding-left: 0;
-  }
-
-  .section-image {
-    width: 500px;
-  }
-
   .text-spacing {
     margin-top: 0;
-    width: auto;
     text-align: start;
     text-align-last: start;
   }
@@ -355,11 +328,11 @@ input[type=submit] {
   }
 
   /* about our products section */
-  .section-image {
+  /*.section-image {
     width: 600px;
     height: 250px;
     margin-left: 100px;
-  }
+  }*/
 
   .text-spacing {
     margin-right: 50px;
