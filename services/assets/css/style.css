@@ -66,9 +66,8 @@ body {
 
 .recipes-container {
   background-color: greenyellow;
-  margin-left: 65px;
-  margin-right: 100px;
   margin-bottom: 50px;
+  width: max-content;
   padding-left: inherit;
   padding-right: inherit;
 }
@@ -98,6 +97,7 @@ body {
 .text-custom {
   text-align: center;
   letter-spacing: 3px;
+  margin-top: 20px;
 }
 
 /* Footer Section */
@@ -147,12 +147,7 @@ body {
 
   /* Explore Our Services section */
   .explore-section2 {
-    margin-left: 50px;
-  }
-
-  .recipes-container {
-    margin-right: 0;
-    max-width: min-content;
+    column-gap: 3em;
   }
 
   .text-explore {
@@ -204,10 +199,6 @@ body {
   }
 
   /* Explore Our Services section */
-  .explore-section2 {
-    margin-left: 0;
-  }
-
   .text-explore {
     margin-top: -105px;
   }
@@ -224,10 +215,6 @@ body {
   }
 
   /* Explore Our Services section */
-  .explore-section2 {
-    justify-content: center;
-  }
-
   .text-explore {
     margin-top: -135px;
   }

@@ -76,6 +76,10 @@ body {
   background-color: #c0c0c06b;
 }
 
+.explore-section2 {
+  justify-content: center;
+}
+
 .text-explore {
   display: flex;
   flex-direction: column;
@@ -84,24 +88,14 @@ body {
 
 .recipes-container {
   background-color: greenyellow;
-  margin-left: 65px;
-  margin-right: 100px;
   margin-bottom: 50px;
+  width: max-content;
   padding-left: inherit;
   padding-right: inherit;
 }
 
 .services-image {
   border: 2px solid gold;
-}
-
-.services-icon {
-  position: relative;
-  bottom: 1em;
-  left: 6.5em;
-  background-color: orange;
-  border-radius: 50%;
-  padding: 10px;
 }
 
 .custom-container {
@@ -116,6 +110,7 @@ body {
 .text-custom {
   text-align: center;
   letter-spacing: 3px;
+  margin-top: 20px;
 }
 
 /* Contact address and forms Section */
@@ -216,12 +211,7 @@ input[type=submit] {
 
   /* Explore Our Services section */
   .explore-section2 {
-    margin-left: 50px;
-  }
-
-  .recipes-container {
-    margin-right: 0;
-    max-width: min-content;
+    column-gap: 3em;
   }
 
   /* Contact address and forms Section */
@@ -298,11 +288,6 @@ input[type=submit] {
     margin-bottom: 50px;
   }
 
-  /* Explore Our Services section */
-  .explore-section2 {
-    margin-left: 0;
-  }
-
   /* Contact address and forms Section */
   .contact-section {
     display: flex;
@@ -326,10 +311,5 @@ input[type=submit] {
   /* about our products section */
   .text-spacing {
     margin-right: 50px;
-  }
-
-  /* Explore Our Services section */
-  .explore-section2 {
-    justify-content: center;
   }
 }
