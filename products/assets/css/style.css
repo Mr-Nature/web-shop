@@ -52,10 +52,6 @@ body {
 }
 
 /* Check out our products section */
-.grid-image {
-  margin-left: 20px;
-}
-
 .products {
   background-color: #28282b;
   margin-top: -85px;
@@ -114,7 +110,7 @@ body {
   .grid-image {
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 25px;
+    column-gap: 3em;
   }
 
   .products-image {
@@ -170,7 +166,7 @@ body {
     margin-top: -160px;
   }
 
-  .products-section {
+  .product-section {
     display: flex;
   }
 
@@ -180,7 +176,7 @@ body {
   }
 
   .products-image {
-    width: 220px;
+    width: 1000px;
   }
 
   .inventory {
@@ -201,10 +197,6 @@ body {
   /* Check out our products section */
   .products {
     margin-top: -180px;
-  }
-
-  .products-image {
-    width: 300px;
   }
 
   /* Footer Section */

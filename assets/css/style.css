@@ -67,10 +67,6 @@ body {
 }
 
 /* Check out our products section */
-.grid-image {
-  margin-left: 20px;
-}
-
 .products {
   background-color: #28282b;
 }
@@ -211,7 +207,7 @@ input[type=submit] {
   .grid-image {
     display: grid;
     grid-template-columns: auto auto;
-    margin-left: 25px;
+    column-gap: 3em;
   }
 
   .products-image {
@@ -295,7 +291,7 @@ input[type=submit] {
   }
 
   .products-image {
-    width: 220px;
+    width: 1000px;
   }
 
   .inventory {
@@ -328,19 +324,8 @@ input[type=submit] {
   }
 
   /* about our products section */
-  /*.section-image {
-    width: 600px;
-    height: 250px;
-    margin-left: 100px;
-  }*/
-
   .text-spacing {
     margin-right: 50px;
-  }
-
-  /* Check out our products section */
-  .products-image {
-    width: 300px;
   }
 
   /* Explore Our Services section */
